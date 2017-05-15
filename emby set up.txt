@@ -1,0 +1,75 @@
+Right so this is how to set up the tv guide TV PORTAL for kodi.
+You will need a couple of things to do this- Kodi with an emby sub from wicked,a way to download files direct to your device/ to sideload if preferred and a bit of patience!
+
+To start you'll need the epg data. To get this open your browser/app and type in     http://bit.do/wickedepg
+
+*****MAKE SURE YOU KNOW WHICH FOLDER THIS GOES IN AS YOU'LL HAVE TO FIND IT LATER*********************** 
+
+
+****************************ADDING TV PORTAL REPOSITORY & INSTALLING ADDON***************************************************
+
+- Now turn on kodi and head to the FILE MANAGER section which is found in the SYSTEM tab.
+
+- Select ADD SOURCE and click on the 1st box and type in - http://noobsandnerds.com/portal and press done.
+
+- Name it portal and press done.
+
+- Now go back to the SYSTEM tab and press ok to enter the settings. Then select ADDONS > INSTALL FROM ZIP FILE > SELECT PORTAL  wait for notification noobsandnerds repo installed.
+
+- Once thats ok press BACK and then select INSTALL FROM REPOSITORY. Thenn scroll down until you see NOOBSANDNERDS REPOSITORY select it and the click on PROGRAM ADDONS.
+
+- Then choose TV PORTAL and install it. This will automatically add the super favourites addon.
+
+- Go back to the main menu of kodi and select VIDEO ADDONS.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!DO NOT OPEN THE TV GUIDE ADDON!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+************************************HOW TO IMPORT SUPER FAVOURITES*************************************
+
+- Now you're in the VIDEO ADDONS section scroll dow to SUPER FAVOURITES and HOLD the OK/SELECT/MENU/OPTIONS button until a menu appears.
+
+- Choose ADDON SETTINGS
+
+- At the top of the settings page there are a few menus you need to scroll across to the ADVANCED section.
+
+- Once here scroll down and tick IMPORT FROM REMOTE FILE and a new tab should appear beneath it. Scroll to this and click on it.
+
+- In here tye in exactly like this http://bit.do/superfav and click done.
+
+- Scroll down and select CLICK TO IMPORT SUPER FAVOURITES. It should bring up a progress bar and start to import if not check the URL is like above.
+
+- It will ask if you want to overwrite your current setting choose NO.
+
+
+**************************************SETTING UP THE TV GUIDE*******************************************************************************
+
+
+THE FUN STUFF PLEASE PAY ATTENTION YOU NEED TO DO THIS EXACTLY LIKE THIS OR YOULL END UP WITH 2 SETS OF CHANNELS!!!!!!!!!!!!!!
+
+- Go to the PROGRAM ADDONS on your build and scroll to TV PORTAL **DONT OPEN IT YET****
+
+- Press and hold OK/SELECT/MENU/OPTIONS until a box appears and select TV PORTAL SETTINGS.
+
+- In main settings tab scroll to where it says UNLOCK FEATURES WITH NOOBSANDNERDS LOGIN untick this so its not available.
+
+- Then below that where it says COUNTRY 1  there are 2 arrows and it should say UNITED KINGDOM change this to NONE by clicking the UP ARROW TWICE. Do the same with the OFFSET LISTINGS beneath set it to 0.
+
+- Scroll back to the top and move across to the EXTRA FEATURES tab. Then click the first part called SF CHANNEL FOLDER. You'll need to set this to where the super favourites are located. to do this on android copy this series of folders 
+
+EXTERNAL STORAGE > ANDROID > DATA > ORG.XBMC.KODI > FILES > .KODI > USERDATA > ADDON_DATA > PLUGIN.PROGRAM.SUPER.FAVOURITES > SUPER FAVOURITES then press ok at the right hand side of the screen.
+
+- Scroll down and click where its highlighted in yelllow CREATE SF CHANNEL FOLDERS IN PATH ABOVE. This takes you out the settinngs and a box will appear saying its been updated click OK
+
+- Same again go bank into the settings this time move across the tabs at the top to CUSTOM OPTIONS. Scroll down until you ome to the part that says ADD MY OWN CHANNELS.
+
+- Set the TVXML TYPE  to FILE using the UP/DOWN arrows next to where it says
+
+- Set LOCAL FILE to where you saved the EPG DATA usually its in the download folder so in this case EXTERNAL STORAGE > DOWNLOAD > and select a file called GUIDE.XML thats the data for the tv guide.Then click OK
+
+- Set the country to UNITED KINGDOM and the TIME OFFSET to -1
+
+- Scroll down and then choose SCAN IN XML FILE.
+
+- Thats it done all you need to do is wait for it to create a channel list then assign your channels and you're good to go!! 
